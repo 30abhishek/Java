@@ -2,7 +2,7 @@ package com.company.assessment;
 
 import java.util.Stack;
 
-public class Q1{
+public class Question1{
     public static void main(String[] args) {
         System.out.println(isValid("()".toCharArray()));
         System.out.println(isValid("(){}[]".toCharArray()));
