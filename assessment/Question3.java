@@ -1,4 +1,5 @@
 package com.company.assessment;
+//Iterative is faster than recursive because recursive uses extra stack manipulation and more memory
 
 public class Question3 {
     public static void main(String[] args) {
