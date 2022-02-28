@@ -1,0 +1,27 @@
+Ans 1.
+ORM stands for Object Relational Mapping. It is used to maintain a relationship between object and relational database.
+It is used to map object data model into relational data model. Mapping allows us to store and read data from database.
+When we use object oriented programming there is a mismatch between object model and relational model because object oriented model uses class and relational model uses table this is why orm was introduced to overcome this mismatch.
+
+There are 4 types of mapping:
+1. One-to-one - Only one entity is related to another one entity. Ex - a person can have only one id number.
+2. One-to-many - One entity is related to many entities. Ex - a person can have many phone numbers.
+3. Many-to-one - Many entities can be related to only one entity. Ex - different employees can have only one company.
+4. Many-to-many - Many entities can ve related to other different entities. Ex - many students can have various different subjects.
+----------------------------------------------------------------------------------------------------------------
+Ans 2.
+hibernate.cfg.xml is the name of default hibernate configuration file. "Create" is used to automatically create the table in case the table is not there.
+------------------------------------------------------------------------------------------------------------------
+Ans 5.
+1.Data can be manipulated without using hardcoded sql statements.
+2.The syntax is checked during compile time so the errors are listed during the compilation of the program.
+3.It is object oriented.
+4.When a table name is changed the same old code will work and change is not required.
+-------------------------------------------------------------------------------------------------------------------
+Ans6.
+There are 4 types of mapping:
+1. One-to-one - Only one entity is related to another one entity. Ex - a person can have only one id number.
+2. One-to-many - One entity is related to many entities. Ex - a person can have many phone numbers.
+3. Many-to-one - Many entities can be related to only one entity. Ex - different employees can have only one company.
+4. Many-to-many - Many entities can ve related to other different entities. Ex - many students can have various different subjects.
+
