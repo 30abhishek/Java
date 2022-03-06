@@ -1,1 +1,45 @@
+Fb API
 
+(i) create user
+https://www.facebook.com/createuser         POST
+{
+    "name":"",
+    "emailAddress": "",
+    "age": ,
+    "mobileNo":
+}
+
+(ii) follow another user
+https://www.facebook.com/users?userId=12345       GET
+{
+   usersDetail:
+    {   "name":  ,
+        "emailAddress": "" ,
+        "age":  ,
+    }
+}
+(iii) friend another user
+https://www.facebook.com//addfriend                 PUT
+{
+    "userId":"" ,
+    "friendUserId": ""
+}
+
+(iv) unfriend another user
+https://www.facebook.com/users?userId=12345       GET
+{
+    "friend":"false"
+}
+
+(v) post
+https://www.facebook.com//posts?userId=12345     GET
+{
+    "postlist":[post1,post2,post3]
+}
+
+(vi) likes
+https://www.facebook.com//like          PUT
+{
+    "userId":"",
+    "postid":""
+}
