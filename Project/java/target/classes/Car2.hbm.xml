@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/orm/hbm">
+    <class name="com.company.day8.Car2" table="car2">
+        <id name="id" type="int">
+            <column name="id"></column>
+        </id>
+        <property name="speed" column="speed" type="double"/>
+        <property name="name" column="name" type="string"/>
+        <property name="horsePower" column="horsePower" type="float"/>
+        <property name="maker" column="maker" type="char"/>
+        <property name="isHatchBack" column="isHatchBack" type="boolean"/>
+        <property name="carNumber" column="carNumber" type="long"/>
+    </class>
+</hibernate-mapping>
